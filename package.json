@@ -1,0 +1,31 @@
+{
+  "name": "tut",
+  "version": "1.0.0",
+  "description": "Node js tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi9avx/Nodejs.git"
+  },
+  "keywords": [
+    "Node",
+    "js",
+    "tutorial",
+    "by",
+    "Abhinav"
+  ],
+  "author": "Abhinav Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhi9avx/Nodejs/issues"
+  },
+  "homepage": "https://github.com/abhi9avx/Nodejs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^3.0.3",
+    "simple-node-logger": "^21.8.12"
+  }
+}
