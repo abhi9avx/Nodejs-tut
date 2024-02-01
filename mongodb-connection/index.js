@@ -7,7 +7,7 @@ async function getData() {
     await client.connect();
     let db = client.db(database);
     let collection = db.collection('products');
-    let response = await collection.find({}).toArray();
+    let response = await collection.find({name:'S4'}).toArray();
     console.log(response);
     await client.close();
 }
